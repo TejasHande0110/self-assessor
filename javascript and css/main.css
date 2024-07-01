@@ -1,0 +1,364 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: auto;
+}
+body{
+    font-family:'Josefin Sans';
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    width: auto;
+    height: auto;
+}
+/* navigation bar css */
+nav{
+    font-family:'Josefin Sans';
+    background-color: rgba(15, 15, 15, 0.781);
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    position: relative;
+    padding-top: 2px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(243,13,13);
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav b{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+ b:hover{
+    border: 1px solid white;
+    transition:  .5s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    display: none;
+} 
+nav ul li button{
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-family:'Josefin Sans';
+}
+nav ul li button:hover{
+    color:red;
+}
+nav ul li a:hover{
+    color:red;
+}
+
+.signlogo{
+    width: 18px;
+    height: 18px; 
+    border-radius: 60%
+
+}
+
+/* login form*/
+.login-page{
+    overflow: auto;
+}
+#login-form{
+    display:none;
+}
+#admin-login-form{
+    display:none;
+}
+.login2{
+    padding: auto;
+    width: 380px;
+    position: relative;
+    border-radius: 5px;
+    height: 350px;
+    margin: 2% auto;
+    background:rgba(15, 15, 15, 0.781);
+    overflow: hidden;
+    animation-name: login;
+    animation-duration: 0.5s;
+}
+.form-box{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    border-radius: 5px;
+    margin: 10px auto;
+    background:rgba(15, 15, 15, 0.781);
+    overflow: hidden;
+    animation-name: login;
+    animation-duration: 0.5s;
+}
+@keyframes login{
+    0% {top: -510px;}
+    100%{top: 0px;}
+}
+.button-box{
+    width: 220px;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #b107078c; 
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.993);
+}
+.toggle-btn{
+    padding: 10px 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    cursor: pointer;
+    width: 110px;
+    height: 100%;
+    background: #9bee2f;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group-login{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-group-register{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    color:lightslategrey;
+    border-bottom: 1px solid rgb(241, 233, 233);
+    outline:none ;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    background: #9bee2f;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 34px 0px;
+}
+span{
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    bottom: 68px;
+    position: absolute;
+}
+.login2 span{
+    font-size: 15px;
+    bottom: 155px;
+    position: absolute;
+    color: rgb(255, 254, 254);
+}
+#login{
+    left: 50px;
+}
+#login input{
+    color: white;
+    font-size: 15;
+}
+#login2 input{
+    color: white;
+    font-size: 15;
+}
+#register{
+    left: 450px;
+}
+#register input{
+    color: white;
+    background: transparent;
+    font-size: 15; 
+}
+#login2{
+    top: 150px;
+}
+.cut{
+    color: white;
+    margin-left: 16%;
+    margin-top: 10px;
+    float: none;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 22px;
+    padding-top: 1px;
+    padding-left: 280px;
+}
+.title{
+    width: 65%;
+    margin: 10px 60px;
+    text-align: center;
+    font-size: 20px;
+    color: darkorange;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.over{
+    top: 100px;
+}
+.formlink{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+/* About Us */
+.signin-header{
+    min-height: 16.43px;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 22px;
+    color: darkorange;
+    font-weight: bold;
+}
+.btn2{
+    color: black;
+    background: transparent;
+    margin-left: 85%;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+.form{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    flex: 1;
+    z-index: 1050;
+    outline: 0;
+    opacity: 1;
+    overflow: auto;
+    transition: opacity .15s linear;
+    background-color: rgba(0, 0, 0, 0.315);
+    font: 15px'Josefin Sans';
+}
+#aboutus{
+    display: none;
+    animation-duration: 1s;
+    animation-name: aboutus;
+}
+@keyframes aboutus{
+    0% {top: -1272px;}
+    100%{top: 0px;}
+    }
+.icon{
+    box-shadow: 5px 10px 8px;
+    border-radius: 65%;
+    height: 200px;
+    width: 200px;
+}
+#selfa{
+    border-bottom: 2px solid #e5e5e5;
+}
+.selfa{
+    width: 480px;
+    height: 200px;
+    text-align: left;
+}
+.box2{
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    transition: transform .3s ease-out;
+    margin: 30px 20%;
+    background:white;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+}
+.cont{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+h3{
+    color: orange;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+}
+.info{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+a{
+    color: mediumblue;
+}
+ul{
+    margin: 0px 50px 20px 0px;
+    list-style: none;
+}
+li {
+    font-weight: bold;
+    display: inline-block;
+    line-height:1.5;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}

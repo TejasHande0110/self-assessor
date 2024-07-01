@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-size:auto;
+    width: auto;
+    height: auto;
+    height: 505px;
+    overflow: auto;
+}
+
+/* header */
+header{
+    background-color: rgba(15, 15, 15, 0.781);
+    height:65px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.sign{
+    font-size: 18px;
+}
+.logo{
+    display: inline-block;
+    margin-top: 20px;
+    font-family:'typo';
+    font-size:35px;
+    color:rgb(243,13,13);
+    margin:15px; 
+}
+.nav{
+    display: inline-block;
+    margin-left:45%;
+    font: 18px 'Josefin Sans';
+    color:darkorange; 
+}
+.hello{
+    margin: 20px;
+    font-size: 18px;
+}
+a{
+    font: 18px 'Josefin Sans';
+    background:transparent;
+    padding:5px 10px;
+    top: 0;
+    text-align: center;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+/* dashboard */
+.dashboard{
+    display: inline-block;
+    margin: 0;
+    padding:20px 0px;
+    background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+    width: 14%;
+    position: relative;
+    height: 109%;
+    border: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 5px rgb(0 0 0 / 8%);
+}
+ul{
+    align-items: center;
+    color: #777;
+    padding-left: 10px;
+    float: left;
+}
+.title{
+    font-size: 22px;
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+li{
+    display: inline-block;
+    font: 16px 'Josefin Sans';
+    text-align: center;
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn2{
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+}
+.btn2:focus{
+    background-image: linear-gradient(to bottom,#dbdbdb 0,#e2e2e2 100%);
+    outline: none;
+}
+
+/* home */
+.form{
+    min-height: 440px;
+    width: 80%;
+    margin-right:20px ;
+    top: 0;
+    float: right;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    outline: 0;
+}
+.formbox{
+    display: inline-block;
+    background-color: white;
+    margin-top: 60px;
+    width: 1060px;
+    height: auto;
+    border-radius: 4px;
+    padding: 20px;
+}
+.head{
+    font: 22px 'Josefin Sans';
+    font-weight: bold;
+    margin-left: 45%;
+    color: darkorange;
+}
+table{
+    font: 16px 'Josefin Sans';
+    width: 100%;
+    border: none;   
+}
+tr{
+    height: 40px;
+    background-color: #f9f9f9;
+}
+th, td {
+    background: transparent;
+    padding: 10px;
+    border-top: 1px solid rgb(221, 218, 218);
+    border-bottom: 1px solid rgb(221, 218, 218);
+}
+/* feedback form */
+#feedback{
+    animation-duration: 0.7s;
+    animation-name: feedback;
+}
+@keyframes feedback{
+    0% {top: -636px;}
+    100%{top: 0px;}
+    }
+.box{
+    border-radius: 5px;
+    margin: 30px 23% 30px 23%;
+    width: 690px;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size:730px 540px;
+    background-attachment: scroll;
+    border-color: #eee;
+    padding: 20px;
+    font: 15px 'Josefin Sans';
+    text-align: center;
+    font-size: 15px;
+}
+span{
+    font-size: 15px;
+}
+label{
+    font-weight: bold;
+    left: 20%;
+}
+.text{
+    font: 14px 'Josefin Sans';
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #555;
+    border: 1px solid #ccc;
+}
+.form2{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    flex: 1;
+    z-index: 1050;
+    outline: 0;
+    opacity: 1;
+    overflow: auto;
+    transition: opacity .15s linear;
+    background-color: rgba(0, 0, 0, 0.315);
+    font: 15px 'Josefin Sans';
+}
+.input-box{
+    margin:7px 0px 14px 0px;
+    padding: 6px 12px;
+    width: 391px;
+    border: 1px solid #ccc;
+    font: 14px 'Josefin Sans';
+    border-radius: 4px;
+    color: #555;
+    line-height: 1.42857143;
+}
+.signin-footer{
+    padding:15px;
+    text-align: right;
+}
+.box2{
+    border-radius: 5px;
+    margin: 15% 30% 30px 30%;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-color: #eee;
+    padding: 10px;
+    font: 15px 'Josefin Sans';
+    text-align: center;
+    font-size: 15px;
+}
+.textbox{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #555;
+}
+#feedback2{
+    display: none;
+}
+/* add quiz */
+.formbox2{
+    display: inline-block;
+    background-color: white;
+    margin: 50px 20% 0px;
+    width: 610px;
+    height: 500px;
+    border-radius: 4px;
+    padding: 20px;
+    
+}
